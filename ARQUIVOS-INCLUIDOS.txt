@@ -1,0 +1,22 @@
+RIFA 2º ALIMENTOS — ARQUIVOS DO PROJETO
+
+Arquivos e pastas incluídos no ZIP:
+
+index.html
+package.json
+vite.config.js
+README.md
+ARQUIVOS-INCLUIDOS.txt
+.env.example
+.gitignore
+src/main.jsx
+src/style.css
+supabase/schema.sql
+.github/workflows/deploy.yml
+
+IMPORTANTE SOBRE ARQUIVOS OCULTOS:
+.env.example, .gitignore e a pasta .github começam com ponto. Muitos gerenciadores de arquivos Android não mostram esses itens por padrão. Eles estão incluídos no ZIP.
+
+Ao enviar para o GitHub, preserve a estrutura e os nomes. A pasta .github deve ficar na raiz do repositório, contendo workflows/deploy.yml.
+
+Não envie um arquivo .env com credenciais privadas. A chave pública do Supabase pode ser configurada como secret do GitHub Actions, conforme o README.
